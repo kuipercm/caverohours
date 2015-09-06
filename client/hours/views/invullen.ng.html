@@ -1,0 +1,14 @@
+<div>
+    <h1>Hello Invullen!!!</h1>
+
+    <div class="fillin-hours-header-row">
+        <div class="fillin-horus-category-col"></div>
+        <div class="fillin-hours-day-col" data-ng-repeat="day in ctrl.daysThisMonth">{{day.dayNumber}}</div>
+    </div>
+    <div class="fillin-hours-header-row" data-ng-repeat="category in ctrl.categories">
+        <div class="fillin-horus-category-col">{{category.name}}</div>
+        <div class="fillin-hours-day-col" data-ng-repeat="day in ctrl.daysThisMonth"><input type="text" /></div>
+    </div>
+
+
+</div>
